@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<plugin id="corodva-plugin-qrscanner-hms" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="cordova-plugin-qrscanner-hms" version="1.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
 	<name>
 		QrScanner
 	</name>
@@ -26,7 +26,6 @@
 			</feature>
 		</config-file>
 		<source-file src="src/ios/QrScanner.m" />
-		<framework src="ScanKitFrameWork" type="podspec" spec="1.1.0.304"/>
 		<preference name="CAMERA_USAGE_DESCRIPTION" default="请允许APP访问您的相机"/>
 		<config-file target="*-Info.plist" parent="NSCameraUsageDescription">
 			<string>$CAMERA_USAGE_DESCRIPTION</string>
@@ -35,5 +34,10 @@
 		<config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
 			<string>$PHOTO_LIBRARY_USAGE_DESCRIPTION</string>
 		</config-file>
+		<podspec>
+			<pods use-frameworks="true" inhibit-all-warnings="true">
+				<pod name="ScanKitFrameWork" spec="1.1.0.306"/>
+			</pods>
+		</podspec>
 	</platform>
 </plugin>

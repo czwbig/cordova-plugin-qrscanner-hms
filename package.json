@@ -1,10 +1,10 @@
 {
   "name": "cordova-plugin-qrscanner-hms",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "description": "二维码扫描, 条码扫描,QR code scanner, Fast, bar code scanner, Hms based",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trayvon2017/cordova-plugin-qrscanner-hms.git"
+    "url": "git+https://github.com/czwbig/cordova-plugin-qrscanner-hms.git"
   },
   "keywords": [
     "cordova",
@@ -20,9 +20,9 @@
   "author": "trayvon2017",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trayvon2017/cordova-plugin-qrscanner-hms/issues"
+    "url": "https://github.com/czwbig/cordova-plugin-qrscanner-hms/issues"
   },
-  "homepage": "https://github.com/trayvon2017/cordova-plugin-qrscanner-hms#readme",
+  "homepage": "https://github.com/czwbig/cordova-plugin-qrscanner-hms#readme",
   "publishConfig": {
     "access": "public"
   }
